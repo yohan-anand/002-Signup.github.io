@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>SignUp (Blocks)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Google Font- PT Sans -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css02.css" type="text/css" />
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Bootstrap2 Js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row my-row">
+        <div class="col-md-8 col-md-offset-2 col-lg-offset-3">
+          <div class="my-panel">
+            <div class="row my-row">
+              <!-- Navbar -->
+              <ul class="nav nav-tabs my-nav">
+                <li class="active"><a class="col-xs-6 btn btn-block my-tab-btn" data-toggle="tab" href="#signup">Sign Up</a></li>
+                <li><a class="col-xs-6 btn btn-block my-tab-btn" data-toggle="tab" href="#login">Log In</a></li>
+              </ul>
+              <!--<button class="col-xs-6 btn btn-toggle my-tab-btn">Log In</button> -->
+              <div class="tab-content">
+                <!-- First Panel -->
+                <div id="signup" class="tab-pane fade in active">
+                  <div class="row my-row">
+                    <h2 class="my-title">Sign Up for Free</h2>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <div class="form-group"><input class="form-control" type="text" placeholder="First Name*"/></div>
+                    </div>
+                    <div class="col-xs-6">
+                      <div class="form-group"><input class="form-control " type="text" placeholder="Last Name*"/></div>
+                    </div>
+                  </div>
+
+                    <div class="form-group"><input class="form-control" type="email" placeholder="Email Address*"/></div>
+
+                  <div class="row my-row">
+                    <input class="form-control my-input-box" type="password" placeholder="Set A Password*"/>
+                  </div>
+                  <div class="row my-row">
+                    <button class="btn btn-block my-btn"> GET STARTED
+                  </div>
+                </div>
+                <!-- End First Panel -->
+                <!-- Second Panel -->
+                <div id="login" class="tab-pane fade">
+                  <div class="row my-row">
+                    <h2 class="my-title">Log In</h2>
+                  </div>
+                  <div class="row my-row">
+                    <input class="form-control my-input-box" type="email" placeholder="Username / Email*"/>
+                  </div>
+                  <div class="row my-row">
+                    <input class="form-control my-input-box" type="password" placeholder="Password*"/>
+                  </div>
+                  <div class="row my-row">
+                    <button class="btn btn-block my-btn"> LOG IN
+                  </div>
+                </div>
+                <!-- End Second Panel -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
